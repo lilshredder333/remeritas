@@ -86,14 +86,36 @@ nav a:hover {
        REMERAS
 \*                   */
 
-/* IMG GRANDE */
-
-.img-container-remeritas {
-  position: relative;
-  left: 150px;
-  top: 80px !important;
+.general-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
 }
 
-.img-container-remeritas img {
-  height: 500px;
+/* IMG GRANDE */
+.img-container-remeritas {
+  display: flex;
+  justify-content: right;
+  width: fit-content;
+
+}
+.img-remeritas {
+  width: 79.8%;
+
+}
+
+.img-remeritas img { 
+   width: 100%;
+}
+
+.info-container-remeritas {
+  width: 80%;
+  z-index: 1;
+}
+
+.info-remeritas {
+  height: 409px;
+  background-color: white;
+  width: 80%;
 }
