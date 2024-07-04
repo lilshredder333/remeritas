@@ -37,9 +37,9 @@ nav a {
 }
 
 nav a:hover {
-  color: red;
+    font-weight: 600;
+    color: black;
 }
-
 /*                   *\
        CONTENIDO
 \*                   */
@@ -118,4 +118,37 @@ nav a:hover {
   height: 409px;
   background-color: white;
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  padding: 2em;
 }
+
+.btn-dark {
+    position: relative;
+    bottom: -120px;
+}
+
+/* HEADERS */
+
+/*                   *\
+       CONTACTO
+\*                   */
+
+form { 
+    width: 35%;
+    align-self: center;
+    justify-self: center;
+    border: solid black;
+    
+}
+
+.contacto-center {
+    border: solid red;
+}
+
+.input-cantidad {
+    font-size: 13.2px;
+}
+
