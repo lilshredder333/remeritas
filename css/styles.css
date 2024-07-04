@@ -1,0 +1,99 @@
+/*mobile first*/
+
+* {
+  text-decoration-color: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/*               *\
+        HOME
+\*               */
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-container {
+  display: flex;
+  height: 100vh;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all ease 0.5s;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/*                   *\
+       CONTENIDO
+\*                   */
+
+/* MODIFICACION NAVBAR */
+
+.nav-container-materiales {
+  position: absolute;
+  bottom: 0;
+  align-self: center;
+}
+
+/*  IMG ESQUINITAS */
+
+.top-left {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: right;
+}
+
+/*                   *\
+       REMERAS
+\*                   */
+
+/* IMG GRANDE */
+
+.img-container-remeritas {
+  position: relative;
+  left: 150px;
+  top: 80px !important;
+}
+
+.img-container-remeritas img {
+  height: 500px;
+}
